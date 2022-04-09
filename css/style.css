@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 1%;
+    width: 98%;
+}
+
+header{
+    padding: 1%;
+    width: 98%;
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1%;
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+nav{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav>a{
+    display: block;
+    width: 70px;
+    height: 70px;
+    background-color: burlywood;
+    border-radius: 50px;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+nav>a:hover{
+    background-color: cornflowerblue;
+}
+
+.info{
+    padding: 1%;
+    width: 98%;
+    background-color: darkgrey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1%;
+}
+
+.info_item{
+    width: 49%;
+    display: flex;
+    justify-content: center;
+    gap:1%;
+    align-items: center;
+}
+
+.info_img{
+    width: 120px;
+    height: 120px;
+    background-color: blueviolet;
+}
+
+.info_item>p{
+    width: 40%;
+}
+
+#gal{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60vh;
+    margin-bottom: 1%;
+}
+
+aside{
+    width: 10%;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.gal_img{
+    width: 90px;
+    height: 90px;
+    background-color: blueviolet;
+}
+
+.gallery{
+    width: 89%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: .5%;
+    overflow-x: scroll;
+    background-color: darkgrey;
+}
+
+footer{
+    width: 98%;
+    padding: 1%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: darkgrey;
+}
+
+footer>a{
+    width: 70px;
+    height: 70px;
+    display: block;
+    background-color: rgb(135, 222, 154);
+    border-radius: 50px;
+    transition: background-color 1s ease;
+}
+
+footer>a:hover{
+    background-color: cornflowerblue;
+}
